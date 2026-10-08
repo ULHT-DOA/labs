@@ -66,7 +66,7 @@ module-01-java-foundations-lab/
         └── CourseCatalog.java
 ```
 
-## 5. Setup - 5 minutes
+## 5. Setup 
 
 From the repository root, check the Java installation:
 
@@ -101,7 +101,7 @@ Recommendations:
 
 > Work in short cycles: edit one `TODO`, compile, run, and compare the result with your expectation.
 
-## 6. Task 1 - Profile and fundamental operations - 10 minutes
+## 6. Task 1 - Profile and fundamental operations 
 
 Open `Main.java`.
 
@@ -163,7 +163,7 @@ System.out.println("Pass-by-value check: " + originalCredits);
 
 Do not change this code yet. Record why the printed value remains `6`.
 
-## 7. Task 2 - Course model and validation - 12 minutes
+## 7. Task 2 - Course model and validation 
 
 Open `Course.java` and `CourseLevel.java`.
 
@@ -200,7 +200,7 @@ Return:
 credits * hours per credit
 ```
 
-## 8. Task 3 - Catalogue, collections, and lookup - 18 minutes
+## 8. Task 3 - Catalogue, collections, and lookup 
 
 Open `CourseCatalog.java`.
 
@@ -235,7 +235,7 @@ Requirements:
 - sort the result by course code; and
 - return the result with `toList()`.
 
-## 9. Task 4 - Data, rule, reporting, and handled failure - 10 minutes
+## 9. Task 4 - Data, rule, reporting, and handled failure 
 
 Return to `Main.java`.
 
@@ -284,7 +284,7 @@ Use `ifPresentOrElse` to print a useful message for both outcomes.
 
 Inside the existing `try` block, attempt to create a course with an invalid blank code and non-positive values. The `catch` block should print the exception message without terminating the application.
 
-## 10. Final verification - 5 minutes
+## 10. Final verification 
 
 Recompile from a clean output directory:
 
@@ -317,25 +317,7 @@ Lookup NET-404: not found
 Rejected invalid course: code is required
 ```
 
-## 11. Acceptance checklist
-
-- [ ] The project compiles with `javac` and runs with `java`.
-- [ ] The student profile uses variables, constants, an array, a loop, and formatted output.
-- [ ] The progress calculation uses deliberate numeric conversion.
-- [ ] Eligibility uses the specified boolean rules.
-- [ ] `Course` rejects invalid values and normalizes its code.
-- [ ] The workload calculation uses a switch expression.
-- [ ] `CourseCatalog` keeps its `List<Course>` private.
-- [ ] Duplicate course codes are rejected.
-- [ ] `findByCode` returns `Optional<Course>`.
-- [ ] `select` uses a stream and returns courses sorted by code.
-- [ ] A `Set` demonstrates removal of duplicate interests.
-- [ ] A `Map` stores enrolment counts.
-- [ ] A `CourseRule` lambda determines recommendations.
-- [ ] One invalid course is handled with `try`/`catch`.
-- [ ] The output includes recommendations, both lookup outcomes, and the validation message.
-
-## 12. Submission
+## 11. Submission
 
 Commit the following:
 
