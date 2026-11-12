@@ -15,9 +15,6 @@ The production code is already implemented. You are **not** expected to create c
 - Spring TestContext architecture;
 - `@SpringBootTest`, `@TestConfiguration`, and `@MockitoBean`.
 
-
-Do not add optional work until the mandatory acceptance criteria are complete.
-
 ---
 
 ## Scenario
